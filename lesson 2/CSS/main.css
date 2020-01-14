@@ -12,6 +12,7 @@ h1 {
     color: #000000;
     margin: 0;
     padding: 0;
+    border-bottom: 1px solid #bbb;
 }
 
 h2 {
