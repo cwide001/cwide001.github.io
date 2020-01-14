@@ -6,19 +6,19 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { margin: 0; box-sizing: border-box; } 
 
 body { 
-    font-size: 20px; 
+    font-size: 15px; 
     line-height:35px;
     font-family: Arial, Helvetica, sans-serif;
     color: #2E86C1;
 }
 
 h1 {
-    font-size: 1.9rem;
-    color: #2E86C1;
+    font-size: 2.2rem;
+    color: #368cce;
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 1.9rem;
     text-align: center;
     border-bottom: 1px solid #bbb;
 }
@@ -32,7 +32,7 @@ header, main, footer {
 
 header, footer, footer a {
     text-align: center;
-    background-color: black;
+    background-color: #A3A3A3;
     color: whitesmoke;
 }
 
