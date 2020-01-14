@@ -1,8 +1,8 @@
-/* CIT 230 - Assignment Portal CSS Template */
+
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-/* * is a wildcard referring to all elements. */
+
 * { margin: 0; box-sizing: border-box; } 
 
 body { 
