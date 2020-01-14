@@ -6,9 +6,11 @@ main {
 	max-width: 767px;
 	margin: 0 auto;
 }
+
 h1 {
     text-align: center;
 }
+
 h2 {
 	color: #368cce;
 }
