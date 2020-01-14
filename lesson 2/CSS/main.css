@@ -2,10 +2,22 @@ body {
 	font-size: 16px;
 	font-family: "Sansita", Ubuntu, sans-serif;
 }
-/* phone or baseline views **************************/
+
 main {
 	max-width: 767px;
 	margin: 0 auto;
+	
+	header {
+    box-align: center;
+    background-color: a3a3a3; 
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Anton', sans-serif;
 }
 h2 {
 	color: #368CCE;
@@ -30,8 +42,6 @@ section:nth-child(2) {
 .colimage {
 	box-shadow: 0 0 30px #333;
 }
-
-/* Tablet Views ******************************/
 @media only screen and (min-width: 37.5em) {
 	main {
 		grid-template-columns: 1fr 1fr;
@@ -55,7 +65,6 @@ section:nth-child(2) {
 	}
 }
 
-/* Desktop Views ****************************/
 @media only screen and (min-width: 60em) {
 	main {
 		grid-template-columns: 1fr 1fr 1fr;
