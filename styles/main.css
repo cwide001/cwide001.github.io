@@ -18,10 +18,13 @@ h2 {
     color: #0e649f;
 }
 
-portrait{
+img {
+    width: 180px;
     float: right;
-    padding: 10px 10px;
-    height: 180px;
+    position: absolute;
+    top: 600;
+    left: 2000;
+    border-radius: 5px;
 }
 
 
@@ -37,8 +40,6 @@ header, footer, footer a {
     color: whitesmoke;
 }
        
-}
-
 footer {
     font-size: 13px;
 }
