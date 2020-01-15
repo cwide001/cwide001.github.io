@@ -1,41 +1,39 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CIT 230 Assignment Portal | Corey W Student | BYU-Idaho</title>
-    <meta name="description" content="Assignment portal site for Corey W Student in CIT 230: Web Frontend Development at BYUI">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Assignment Portal for Corey M. Wideen in CIT 230.">
+    <title>Assignments Portal</title>
     <link rel="stylesheet" href="styles/main.css">
-    
-  </head>
-  <body>
+    </style>
+</head>
 
-    
-
-          <img src="images/Wideen-Family-2019 (29 of 32).jpg" alt="My Profile Picture"
-              sizes="150vw" 
-  <head>
-    <h1> Corey Mathew Wideen </h1>
-
+<body>
+    <img class="portrait" src="images/Wideen-Family-2019 (29 of 32).jpg" alt="My photo">
+    <header>
+        <h1>Corey M. Wideen</h1>
     </header>
     <main>
-        <h2>CIT 230 - Assignment Portal</h2>
+        <h2>CIT 230: Assignment Portal</h2>
+        <hr>
         <ul>
-            <li>Lesson 02: <a href="https://cwide001.github.io/lesson%202/design-principles.html">Design Principles</a></li>
-            <li>Lesson 03: <a href="">Assignment Link</a></li>
-          <li>Lesson 04: <a href= "">Link | Link</a></li>
-      
-
-          </ul>
-    </nav>
+            <li>Lesson 02: <a href="https://cwide001.github.io/lesson%202/design-principles.html">Assignment Link</a></li>
+            <li>Lesson 03: <a href="#">Assignment Link</a></li>
+            <li>Lesson 04: <a href="#">Link</a> | <a href="#">Link</a></li>
+        </ul>
+    </main>
     <footer>
-        &copy; 2020 | Corey M. Wideen | Murrieta, California | <a href ="https://www.byui.edu/onine">BYUI Online Learning</a> 
-        <center>
-    <script>
-    var date = document.lastModified;
-    document.write("Last Modified: "+date);
-    </script>
-    </center>
+        &copy; 2020 | Corey Wideen | Murrieta, California | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+        <br>
+        Last Updated: <span id="date-update"></span>
     </footer>
+    <script>
+        var myDate = document.lastModified;
+        document.getElementById("date-update").innerHTML = myDate;
+    </script>
 </body>
+
 </html>
