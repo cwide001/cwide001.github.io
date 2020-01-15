@@ -24,10 +24,10 @@ main {
     color: #878787;
 }
 img {
-    width: 180px;
+    width: 360px;
     float: right;
     position: absolute;
-    top: 600;
-    left: 2000;
+    top: 1200;
+    left: 4000;
     border-radius: 5px;
 }
