@@ -24,6 +24,12 @@ h2 {
     color: #0e649f;
 }
 
+.portrait{
+    float: right;
+    padding: 10px 10px;
+    height: 180px;
+}
+
 
 header, main, footer {
     margin:1.7rem   auto;
@@ -36,12 +42,6 @@ header, footer, footer a {
     background-color: #878787;
     color: whitesmoke;
 }
-
-header img {
-    
-   width: 50%;
-   margin: 0 0 0 2%;
-   float: right;
        
 }
 header figure.mypicture img { width: 20%; margin: 0;}
