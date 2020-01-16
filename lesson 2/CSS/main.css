@@ -1,7 +1,7 @@
 body {
     font-size: 16px;
     font-family: Baloo Bhai ;
-    color: whitesmoke;
+    color: Black;
     background-color: #878787;
 }
 
@@ -29,10 +29,10 @@ main section {
 }
 
 header {
-    border-bottom: solid white;
+    border-bottom: solid black;
     margin-bottom: 20px;
     text-align: center;
-    font-family: 'Cinzel', serif;
+    font-family: Baloo Bhai;
 }
 
 h1 {
@@ -42,11 +42,11 @@ h1 {
 section h2 {
     border-bottom: solid black;
     margin-bottom: 8px;
-    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: Baloo Bhai;
 }
 
 footer {
-    border-top: solid white;
+    border-top: solid Black;
     margin-top: 20px;
     padding: 16px;
     text-align: center;
