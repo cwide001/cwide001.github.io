@@ -30,7 +30,7 @@ main section {
 
 header {
     border-bottom: solid black;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     text-align: center;
     font-family: Baloo Bhai;
 }
@@ -47,7 +47,7 @@ section h2 {
 
 footer {
     border-top: solid Black;
-    margin-top: 20px;
+    margin-top: 15px;
     padding: 16px;
     text-align: center;
 }
