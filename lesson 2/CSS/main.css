@@ -1,6 +1,6 @@
 body {
-    font-size: 20px;
-    font-family: Baloo Bhai ;
+    font-size: 16px;
+    font-family: Baloo Bhai;
     color: Black;
     background-color: #878787;
 }
@@ -24,13 +24,13 @@ main section {
     border: 2px solid Black;
     padding: 0 1rem;
     background-color: #B3DAF9;
-    color: black;
+    color: Black;
     border-radius: 15px;
 }
 
 header {
     border-bottom: solid black;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     text-align: center;
     font-family: Baloo Bhai;
 }
@@ -47,7 +47,7 @@ section h2 {
 
 footer {
     border-top: solid Black;
-    margin-top: 15px;
+    margin-top: 20px;
     padding: 16px;
     text-align: center;
 }
