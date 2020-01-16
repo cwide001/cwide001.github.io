@@ -1,3 +1,4 @@
+
 body {
     font-size: 20px;
     font-family: Baloo Bhai;
@@ -11,12 +12,7 @@ main {
     font-size: 0.8rem;
     display: grid;
     grid-template-columns: 1fr;
-}
-	
-img {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    width: 100%;
+    
 }
 
 main section {
@@ -26,6 +22,12 @@ main section {
     background-color: #B3DAF9;
     color: black;
     border-radius: 15px;
+}
+
+img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
 }
 
 header {
@@ -55,21 +57,3 @@ footer {
 #link {
     color: #fff;
 }
-
-main {
-	display: grid;
-	grid-template-columns: 1fr;
-	font-size: 0.8rem;
-}
-
-main section {
-	margin: 0.5rem;
-	border: 1px solid #bbb;
-	padding: 0 1rem;
-	background-color: #eee;
-}
-section:nth-child(2) {
-	display: none;
-	margin: 0.5rem;
-}
-
