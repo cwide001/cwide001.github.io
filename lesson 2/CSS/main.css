@@ -1,73 +1,57 @@
 body {
-	font-size: 16px;
-	font-family: "Sansita", Ubuntu, sans-serif;
-}
-main {
-	max-width: 767px;
-	margin: 0 auto;
-}
-
-h1 {
-    text-align: center;
-    color: #000000;
-    margin: 0;
-    padding: 0;
-    border-bottom: 1px solid #bbb;
-}
-
-h2 {
-	color: #19689f;
+    font-size: 16px;
+    font-family: Baloo Bhai ;
+    color: whitesmoke;
+    background-color: #878787;
 }
 
 main {
-	display: grid;
-	grid-template-columns: 1fr;
-	font-size: 0.8rem;
+    max-width: 767px;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+	
+img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
 }
 
 main section {
-	margin: 0.5rem;
-	border: 1px solid #bbb;
-	padding: 0 1rem;
-	background-color: #878787;
-}
-section:nth-child(2) {
-	display: none;
-	margin: 0.5rem;
-}
-.colimage {
-	box-shadow: 0 0 30px #333;
+    margin: 0.5rem;
+    border: 2px solid Black;
+    padding: 0 1rem;
+    background-color: #B3DAF9;
+    color: black;
+    border-radius: 15px;
 }
 
-@media only screen and (min-width: 37.5em) {
-	main {
-		grid-template-columns: 1fr 1fr;
-	}
-
-	section:nth-child(2) {
-		display: block;
-	}
-
-	section:nth-child(3) {
-		grid-column: span 2;
-	}
-
-	main picture {
-		display: block;
-	}
-	main section picture img {
-		width: 100%;
-		height: auto;
-		border: 1px solid #bbb;
-	}
+header {
+    border-bottom: solid white;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
 }
 
-@media only screen and (min-width: 60em) {
-	main {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
+h1 {
+    margin-bottom: -5px;
+}
 
-	section:nth-child(3) {
-		grid-column: span 1;
-	}
+section h2 {
+    border-bottom: solid black;
+    margin-bottom: 8px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+footer {
+    border-top: solid white;
+    margin-top: 20px;
+    padding: 16px;
+    text-align: center;
+}
+
+#link {
+    color: #fff;
 }
