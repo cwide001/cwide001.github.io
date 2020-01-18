@@ -17,11 +17,6 @@
         display: none;
     }
 
-    nav ul.hide {
-        display: flex;
-        justify-content: center;
-    }
-
 
     nav ul li a {
         border: none;
@@ -49,3 +44,7 @@ nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+nav ul.hide {
+    display: none;
+}
+}
