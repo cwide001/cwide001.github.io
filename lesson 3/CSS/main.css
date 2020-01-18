@@ -13,12 +13,6 @@ nav button {
     color: #000000;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
 nav ul li a {
     display: flex;
     padding: .8rem 2%;
