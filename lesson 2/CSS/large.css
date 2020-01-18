@@ -3,7 +3,7 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    section {
-        grid-column: span 3;
+    #section3 {
+        grid-column: span 1;
     }
 }
