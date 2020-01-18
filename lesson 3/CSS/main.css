@@ -13,6 +13,28 @@ nav button {
     color: #000000;
 }
 
+nav ul li a {
+    display: flex;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #eee;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #000;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul.hide {
+    display: none;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
