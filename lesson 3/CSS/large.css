@@ -1,1 +1,22 @@
+@media only screen and (min-width: 64em) {
+
+    header,
+    nav,
+    main,
+    footer,
+    .gallery_grid {
+        max-width: 90em;
+    }
+
+    .gallery_grid {
+        grid-template-columns: auto auto auto;
+
+
+    }
+    .gallery_item{
+        border-radius: 1rem;
+    }
+    .gallery_item:hover{
+        box-shadow: .5rem .5rem 2rem black;}
+}
 
