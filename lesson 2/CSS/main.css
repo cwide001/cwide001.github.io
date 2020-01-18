@@ -1,69 +1,56 @@
 body {
+    font-size: 20px;
+    font-family: Baloo Bhai;
+    color: black;
     background-color: #B3DAF9;
-    max-width: 800px;
-    margin: 1.5rem auto;
 }
 
 main {
+    max-width: 767px;
+    margin: 0 auto;
+    font-size: 0.8rem;
     display: grid;
     grid-template-columns: 1fr;
+    
 }
 
-header, footer {
-    background-color: #000000;
-    color:#fff;
-    text-align: center;
-    border-radius: 0.5rem;
+main section {
     margin: 0.5rem;
-    padding: 0.5rem;
-}
-
-header h1 {
-    line-height: 2.5rem;
-    font-size: 2.5em;
-    font-family: Baloo Bhai;
-}
-
-header a:link, a:visited, a:active {
-    color: #fff;
-    text-decoration: none;
-}
-
-section {
-    margin: 1rem;
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
-    font-family: Baloo Bhai;
-}
-
-h3, p {
-    margin: 0;
-    padding: 0.5rem;
-}
-
-h3 {
-    color: #fff;
-    background-color: #B3DAF9;
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
-}
-p {
+    border: 2px solid black;
+    padding: 0 1rem;
     background-color: #878787;
-    border: 1pt solid #000000;
-    border-top-style: none;
-    line-height: 1.5rem;
+    color: black;
+    border-radius: 15px;
 }
 
- img {
-    display: block;
-    max-width: 100%;
-    padding-top:5%;
-    margin:auto;
+img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+header {
+    border-bottom: solid black;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Baloo Bhai;
+}
+
+h1 {
+    margin-bottom: -5px;
+}
+
+h2 {
+    border-bottom: solid black;
+    margin-bottom: 8px;
+    font-family: Baloo Bhai;
 }
 
 footer {
-    font-size: 1rem;
-    line-height: 1.25rem;
+    border-top: solid black;
+    margin-top: 20px;
+    padding: 16px;
+    text-align: center;
 }
 
 #link {
