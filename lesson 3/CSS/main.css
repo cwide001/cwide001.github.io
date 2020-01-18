@@ -13,6 +13,19 @@ nav button {
     color: #000000;
 }
 
+nav {
+    background-color: #669944;
+    font-family: 'Montserrat';
+    font-size: 1em;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 nav ul li a {
     display: flex;
     padding: .8rem 2%;
