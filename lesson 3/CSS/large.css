@@ -4,7 +4,7 @@
     nav,
     main,
     footer,
-    .gallery_grid {
+    .section {
         max-width: 90em;
     }
 
@@ -13,10 +13,10 @@
 
 
     }
-    .gallery_item{
+    .section{
         border-radius: 1rem;
     }
-    .gallery_item:hover{
+    .section:hover{
         box-shadow: .5rem .5rem 2rem black;}
 }
 
