@@ -10,7 +10,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #878787;
+    background-color: #129AA2;
 }
 
 li {
@@ -27,7 +27,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #B3DAF9;
+    background-color: #F3AB55;
 }
 
 .logo img {
