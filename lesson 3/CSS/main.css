@@ -7,7 +7,7 @@ body {
 
 nav button {
     margin: .2rem 2%;
-    background-color: #80ced6;
+    background-color: #eea29a;
     border: none;
     font-size: 1.6rem;
     color: #000000;
@@ -40,7 +40,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #80ced6;
+    background-color: #eea29a;
 }
 
 li {
