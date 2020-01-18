@@ -10,11 +10,16 @@
 
     }
 
-    img{
+    .logo img{
         max-height: 100px;}
 
     nav button {
         display: none;
+    }
+
+    nav ul.hide {
+        display: flex;
+        justify-content: center;
     }
 
 
@@ -23,28 +28,3 @@
         border-right: 1px solid rgba(0, 0, 0, 0.3);
         padding: .8rem 1rem;
     }
-
-}
-
-nav ul li a {
-    display: flex;
-    padding: .8rem 2%;
-    text-decoration: none;
-    color: #eee;
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
-}
-
-nav ul li.active a {
-    background-color: rgba(0, 0, 0, 0.4);
-    color: #fff;
-}
-
-nav ul li a:hover {
-    color: #000;
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-nav ul.hide {
-    display: none;
-}
-}
