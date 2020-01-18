@@ -1,9 +1,10 @@
-@media screen and (min-width:60em) {
-    main {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+@media only and (min-width: 60em) {
 
-    #section3 {
-        grid-column: span 1;
-    }
+main {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+section:nth-child(3) {
+    grid-column: span 1;
+}
 }
