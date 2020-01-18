@@ -19,7 +19,3 @@
     .section:hover{
         box-shadow: .5rem .5rem 2rem black;}
 }
-
-nav ul.hide {
-    display: none;
-}
