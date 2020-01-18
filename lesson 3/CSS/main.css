@@ -13,11 +13,6 @@ nav button {
     color: #000000;
 }
 
-nav ul.hide {
-    display: none;
-}
-
-
 ul {
     list-style-type: none;
     margin: 0;
