@@ -2,7 +2,7 @@ body {
     font-size: 20px;
     font-family: Baloo Bhai;
     color: black;
-    background-color: #B3DAF9;
+    background-color: #878787;
 }
 
 main {
@@ -18,7 +18,7 @@ main section {
     margin: 0.5rem;
     border: 2px solid black;
     padding: 0 1rem;
-    background-color: #878787;
+    background-color: #B3DAF9;
     color: black;
     border-radius: 15px;
 }
