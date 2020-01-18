@@ -8,6 +8,7 @@ ul {
 
 li {
     float: left;
+    font-family: Baloo Bhai;
 }
 
 li a {
@@ -24,4 +25,11 @@ li a:hover {
 
 .logo img {
     float: left;
+}
+
+footer {
+    border-top: solid black;
+    margin-top: 20px;
+    padding: 16px;
+    text-align: center;
 }
