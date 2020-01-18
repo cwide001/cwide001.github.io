@@ -27,6 +27,13 @@ li a:hover {
     float: left;
 }
 
+header {
+    border-bottom: solid black;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Baloo Bhai;
+}
+
 footer {
     border-top: solid black;
     margin-top: 20px;
