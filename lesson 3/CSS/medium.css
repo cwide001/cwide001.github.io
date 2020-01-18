@@ -1,1 +1,33 @@
+@media only screen and (min-width: 37.5em) {
+
+    header,
+    nav,
+    main,
+    footer,
+    .gallery_grid {
+
+        max-width: 64em;
+
+    }
+
+    img{
+        max-height: 100px;}
+
+    nav button {
+        display: none;
+    }
+
+    nav ul.hide {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+        padding: .8rem 1rem;
+    }
+
+}
 
