@@ -1,3 +1,10 @@
+body {
+    font-size: 20px;
+    font-family: Baloo Bhai;
+    color: black;
+    background-color: #878787;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
