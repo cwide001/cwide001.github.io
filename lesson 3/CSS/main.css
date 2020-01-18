@@ -13,13 +13,6 @@ nav button {
     color: #000000;
 }
 
-nav {
-    background-color: #669944;
-    font-family: 'Montserrat';
-    font-size: 1em;
-    overflow: hidden;
-}
-
 nav ul {
     list-style-type: none;
     padding: 0;
