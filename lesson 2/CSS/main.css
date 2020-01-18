@@ -6,9 +6,6 @@ body {
 }
 
 main {
-    max-width: 767px;
-    margin: 0 auto;
-    font-size: 0.8rem;
     display: grid;
     grid-template-columns: 1fr;
     
