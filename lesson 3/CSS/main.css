@@ -2,12 +2,12 @@ body {
     font-size: 20px;
     font-family: Baloo Bhai;
     color: black;
-    background-color: #878787;
+    background-color: #d5f4e6;
 }
 
 nav button {
     margin: .2rem 2%;
-    background-color: #129AA2;
+    background-color: #80ced6;
     border: none;
     font-size: 1.6rem;
     color: #000000;
@@ -40,7 +40,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #129AA2;
+    background-color: #80ced6;
 }
 
 li {
@@ -57,7 +57,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #F3AB55;
+    background-color: #fefbd8;
 }
 
 .logo img {
@@ -77,7 +77,7 @@ header {
     margin-bottom: 20px;
     text-align: center;
     font-family: Baloo Bhai;
-    background-color: #129AA2;
+    background-color: #d5f4e6;
 }
 
 h1 {
@@ -95,5 +95,5 @@ footer {
     margin-top: 20px;
     padding: 16px;
     text-align: center;
-    background-color: #129AA2
+    background-color: #d5f4e6
 }
