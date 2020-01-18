@@ -21,10 +21,9 @@ main section {
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    padding-top:5%;
-    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
 }
 
 header {
