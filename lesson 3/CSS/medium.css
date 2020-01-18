@@ -14,7 +14,7 @@
         max-height: 100px;}
 
     nav button {
-        display: hidden;
+        display: none;
     }
 
     nav ul.hide {
