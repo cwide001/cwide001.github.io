@@ -13,9 +13,9 @@
     .logo img{
         max-height: 100px;}
 
-    nav button {
-        display: none;
-    }
+
+
+
 
     nav ul.hide {
         display: flex;
