@@ -10,14 +10,19 @@
 
     }
 
-    .logo img{
+.logo img{
         max-height: 100px;}
 
-    nav ul li a {
-    border: none;
-    border-right: 1px solid rgba(0, 0, 0, 0.3);
-    padding: .8rem 1rem;
+nav ul li a {
+border: none;
+border-right: 1px solid rgba(0, 0, 0, 0.3);
+padding: .8rem 1rem;
     }
+    
+nav ul.hide {
+display: flex;
+justify-content: center;
+    }    
     
 nav ul.hide {
     display: none;
