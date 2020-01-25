@@ -19,6 +19,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    background-color: #eea29a;
 }
 
 
@@ -30,7 +31,6 @@ nav li a {
     padding: 0.5em 2em 0.5em 2em ;
     color: black;
     font-family: Baloo Bhai;
-    background-color: #eea29a;
 }
 nav li a:hover {
     background-color: rgb (0,0,0.3);
