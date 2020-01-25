@@ -4,13 +4,13 @@ body {
 }
 header, footer {
     text-align: center;
-    background-color:#618685
+    background-color: #618685;
     color: black;
     padding: 0.5em;
   margin-bottom: 20px;
 }
 nav {
-    background-color: ;#d5f4e6
+    background-color: #d5f4e6;
 }
 nav ul {
     list-style-type: none;
@@ -34,7 +34,7 @@ nav li a:hover {
     color: black;
 }
 main {
-    background-color: rgb(233, 231, 231);
+    background-color: #d5f4e6;
     padding: 1em
 }
 
