@@ -53,7 +53,7 @@ h1 {
 }
 
 h2 {
-    margin-bottom: .25em;
+    border-bottom: solid black;
     font-family: Baloo Bhai;
 }
 h3 {
