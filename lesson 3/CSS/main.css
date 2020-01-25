@@ -48,6 +48,16 @@ h2 {
     margin-bottom: 8px;
     font-family: Baloo Bhai;
 }
+h3 {
+    font-family: Baloo Bhai;
+
+    margin-top: 0em;
+    font-weight: lighter;
+}
+
+hr {
+    margin-top: .25em;
+}
 
 footer {
     border-top: solid black;
