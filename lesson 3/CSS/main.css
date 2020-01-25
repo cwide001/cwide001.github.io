@@ -14,7 +14,7 @@ body {
 
 
 nav ul li a {
-    display: flex;
+    display: block;
     padding: .8rem 2%;
     text-decoration: none;
     color: #000000;
