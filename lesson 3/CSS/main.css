@@ -42,7 +42,12 @@ main {
 
 
 h1 {
-    margin-bottom: -5px;
+
+    font-family: Baloo Bhai;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin-bottom: .25em;
+}
 }
 
 h2 {
