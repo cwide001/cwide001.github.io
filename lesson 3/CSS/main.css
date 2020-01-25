@@ -30,9 +30,10 @@ nav li a {
     padding: 0.5em 2em 0.5em 2em ;
     color: black;
     font-family: Baloo Bhai;
+    background-color: #eea29a;
 }
 nav li a:hover {
-    background-color: rgb(0, 0, 0, 0.3);
+    background-color: rgb (0,0,0.3);
     color: black;
 }
 main {
@@ -42,12 +43,10 @@ main {
 
 
 h1 {
-
     font-family: Baloo Bhai;
     font-size: 40px;
     letter-spacing: 1px;
     margin-bottom: .25em;
-}
 }
 
 h2 {
@@ -57,7 +56,6 @@ h2 {
 }
 h3 {
     font-family: Baloo Bhai;
-
     margin-top: 0em;
     font-weight: lighter;
 }
@@ -71,4 +69,5 @@ footer {
     margin-top: 20px;
     padding: 16px;
     text-align: center;
+    font-family: Baloo Bhai;
 }
