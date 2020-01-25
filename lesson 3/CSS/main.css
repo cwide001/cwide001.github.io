@@ -7,11 +7,13 @@ header, footer {
     background-color: #618685;
     color: black;
     padding: 0.5em;
-  margin-bottom: 20px;
+    font-family: Baloo Bhai;
 }
+
 nav {
     background-color: #d5f4e6;
 }
+
 nav ul {
     list-style-type: none;
     margin: 0;
