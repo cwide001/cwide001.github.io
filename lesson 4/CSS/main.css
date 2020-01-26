@@ -18,6 +18,11 @@ nav {
     background-color: #d5f4e6;
 }
 
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
