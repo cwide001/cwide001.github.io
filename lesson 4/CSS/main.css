@@ -23,6 +23,26 @@ nav {
 	padding: 0;
 }
 
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+
+.navigation a {
+	display: block;
+	color: #fff;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+}
+.navigation a:hover {
+	color: #000;
+	background-color: #fff;
+	font-weight: 700;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
