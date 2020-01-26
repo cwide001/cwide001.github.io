@@ -4,6 +4,38 @@ body {
     font-family: Baloo Bhai;
     background-color: #d5f4e6;
 }
+
+header {
+	background-color: #618685;
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+header img {
+	width: 80px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+
+.m {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: ##fffff0;
+	margin-left: 20px;
+	font-size: .9rem;
+}
+
 header, footer {
     text-align: center;
     background-color: #618685;
