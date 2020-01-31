@@ -31,7 +31,7 @@ header img {
 .m {
 	font-style: italic;
 	letter-spacing: 1pt;
-	color: ##fffff0;
+	color: #fffff0;
 	margin-left: 20px;
 	font-size: .9rem;
 }
@@ -101,7 +101,7 @@ nav li a {
     font-family: Baloo Bhai;
 }
 nav li a:hover {
-    background-color: rgb (0,0,0.3);
+    background-color: #fffff0;
     color: black;
 }
 
