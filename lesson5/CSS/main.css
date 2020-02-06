@@ -105,6 +105,8 @@ main {
     background-color: #d5f4e6;
     padding: 1em;
     font-family: Baloo Bhai;
+    max-width:820px;
+    margin:0 auto;}
 }
 
 
