@@ -25,4 +25,29 @@
 		font-size: larger;
 		margin-left: 17px;
 	}
+       .herodiv {
+  grid-template-columns: 7.3rem 4rem;
 }
+
+       .Forecast1{
+  display: grid;
+}
+
+       #Cow Tipping {
+  width:30%;
+}
+       .Article{
+  height: 20rem;
+}
+       .Contact {
+  flex-direction: row;
+  height: 16rem;
+}
+      .Contact > div {
+  margin-right: .6rem;
+}
+      #map {
+  display: block;
+  width:37%;
+}
+
