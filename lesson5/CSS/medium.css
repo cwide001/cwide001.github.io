@@ -8,6 +8,7 @@
     }
     .navigation li {
         display: block;
+        background-color: #eea29a;
     }
     h1 {
         font-size: 26px;
