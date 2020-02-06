@@ -10,7 +10,6 @@ header {
     color: black;
     padding: 7px;
     display: flex;
-    align-content: center;
     justify-content: center;
 }
 #logo {
