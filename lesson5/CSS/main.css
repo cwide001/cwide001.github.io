@@ -104,6 +104,7 @@ h2 {
 h3 {
     padding: 1em;
     margin: 0;
+    background-color: #eea29a;
 }
 .weatherSummary p {
     padding: 0 0 .5em 1em;
@@ -112,6 +113,7 @@ h3 {
 
 .forecast {
     display: none;
+    background-color: #fffff0;
 }
 
 .article {
