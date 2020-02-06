@@ -132,6 +132,90 @@ h3 {
     font-weight: lighter;
 }
 
+    .Forecast1 {
+        display: none;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        text-align: center;
+        background-color: #FFFFF0;
+        padding:0.75rem;
+        margin: 10 auto;
+       
+        
+      }
+      .Forecast1 h2{
+          grid-column-start:span 5;
+          justify-content: center;
+      }
+      #cloudy {
+         display:block;
+         margin: 0 auto;
+         width:37%;
+      }
+    #herodiv{
+        position: relative;
+        
+    }
+
+  .hero-ph {
+    position: absolute;
+    background-color: #FFFFF0;
+    border :1px solid #333;
+    top:.5rem;
+    left:.5rem;
+    justify-content: center;
+    padding: .5rem;
+    
+  }
+  #herodiv p {
+    margin: 0;
+    font-size: .8rem;
+
+}
+#preston1{
+    display:block;
+    width:99.8%;
+    float: left;
+}
+  .weathersummary{
+      position: absolute;
+      top:60px;
+      right: 50px;
+      background: #FFFFF0;
+      border: 1px solid black;
+      padding: .5rem;
+      box-shadow: 0 0 30px #777;
+  }
+  
+
+  .Article{
+    position: relative;
+    border:3px solid black;
+    margin: 10px auto;
+    height:690px;
+    padding:0.75rem;
+
+}
+  #Cow Tipping{
+    width:57%;
+   float:right;
+  }
+  .Contact{
+    position: relative;
+    border:3px solid black;
+    margin: 10px auto;
+    height: 250px;
+    font-size: .8rem;
+    padding:0.75rem;
+
+}
+#map{
+    float:right;
+    width:55%;
+    margin-bottom: 5px;
+    
+}
+
 hr {
     margin-top: .25em;
 }
