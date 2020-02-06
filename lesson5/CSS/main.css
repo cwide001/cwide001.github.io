@@ -1,0 +1,161 @@
+header {
+    background-color: #618685;
+    color: black;
+    padding: 7px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#logo {
+    width: 70px;
+    height: 48px;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+#tagline {
+    font-family: Baloo Bhai;
+    font-size: 12px;
+    margin: 0 auto;
+    
+}
+h1 {
+    font-family: Baloo Bhai;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    margin: 0 auto;
+   
+}
+nav {
+    background-color: #d5f4e6;
+}
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+nav li {
+    float: left;
+}
+.navigation li:first-child {
+    display: block;
+}
+.navigation li {
+    display: none;
+}
+.navigation li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5em 2em 0.5em 2em ;
+    color: black;
+    font-family: 'Baloo Bhai;
+}
+.navigation li a:hover {
+    background-color: #fffff0;
+    color: black;
+}
+.responsive li{
+    display: block;
+}
+.active {
+    background-color: rgb(71,71,71);
+}
+h2 {
+    font-family: Baloo Bhai;
+    color: black;
+    padding: 1em;
+    margin: 0;
+    text-align: center;
+    
+}
+
+.heroSummary {
+    margin: 0auto;
+    position: relative;
+}
+#prestonHero {
+    width: 100%;
+}
+.weatherSummary {
+    position: absolute;
+    font-family: Baloo Bhai;
+    top: 1em;
+    left: 1em;
+    background-color: #d5f4e6;
+    border: 1px solid rgba(92, 91, 91, 0.4);
+    color: black;
+
+}
+h3 {
+    padding: 1em;
+    margin: 0;
+}
+.weatherSummary p {
+    padding: 0 0 .5em 1em;
+    margin: 0;
+}
+
+.forecast {
+    display: none;
+}
+
+.article {
+    background-color: #fffff0;
+    font-family: Baloo Bhai;
+    margin-bottom: 1em;
+}
+.article p {
+    padding: 0 1em 1em 1em;
+    margin: 0;
+}
+#articlePic {
+    margin: 1em;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2), -5px -5px 10px 0 rgba(0, 0, 0, 0.2) ;
+}
+
+.contact {
+    background-color: #fffff0;
+    font-family: Baloo Bhai;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactInfo {
+    padding: 1em;
+}
+#contactMap {
+    display: none;
+    margin: 1em;
+}
+.contact p {
+    font-size: .8em;
+}
+.socialIcons img {
+    margin: .3em;
+}
+footer {
+    font-family: Baloo Bhai;
+    font-size: 15px;;
+    text-align: center;
+    background-color:#618685;
+    color: black;
+    padding: 0.5em;
+}
+footer a {
+    color: black;
+}             
+
+#announcement {
+    display: block;
+    background-color: #87ceeb;
+    margin: 0;
+    font-family: Baloo Bhai;
+    font-weight: bold;
+    padding: 1em;
+    text-align: center;
+}
