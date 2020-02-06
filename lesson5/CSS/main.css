@@ -72,7 +72,7 @@ nav li {
     display: block;
 }
 .active {
-    background-color: rgb(71,71,71);
+    background-color: #fffff0;
 }
 h2 {
     font-family: Baloo Bhai;
@@ -100,22 +100,6 @@ h2 {
     color: black;
 
 }
-
-   .Forecast1 {
-        display: none;
-        justify-content: center;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        text-align: center;
-        background-color: #FFFFF0;
-        padding:0.75rem;
-        margin: 10 auto;
-       
-        
-      }
-      .Forecast1 h2{
-          grid-column-start:span 5;
-          justify-content: center;
-      }
 
 h3 {
     padding: 1em;
