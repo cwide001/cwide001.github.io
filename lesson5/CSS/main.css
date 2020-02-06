@@ -172,7 +172,7 @@ h3 {
     font-size: .8rem;
 
 }
-#preston1{
+  #preston1{
     display:block;
     width:99.8%;
     float: left;
@@ -188,7 +188,7 @@ h3 {
   }
   
 
-  .Article{
+  .Article {
     position: relative;
     border:3px solid black;
     margin: 10px auto;
@@ -197,11 +197,12 @@ h3 {
     background: #FFFFF0;
 
 }
-  #cow{
+  #cow {
     width:57%;
    float:right;
   }
-  .Contact{
+
+  .Contact {
     position: relative;
     border:3px solid black;
     margin: 10px auto;
@@ -211,18 +212,18 @@ h3 {
     background: #FFFFF0;
 
 }
-#map{
+   #map {
     float:right;
     width:55%;
     margin-bottom: 5px;
     
 }
 
-hr {
+   hr {
     margin-top: .25em;
 }
 
-footer {
+  footer {
     border-top: solid black;
     margin-top: 20px;
     padding: 16px;
