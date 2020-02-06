@@ -226,3 +226,13 @@ h3 {
     text-align: center;
     font-family: Baloo Bhai;
 }
+
+#announcement {
+    display: block;
+    background-color: #87ceeb;
+    margin: 0;
+    font-family: Baloo Bhai;
+    font-weight: bold;
+    padding: 1em;
+    text-align: center;
+}
