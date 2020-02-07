@@ -11,6 +11,78 @@ header {
     display: flex;
     justify-content: center;
 }
+
+#announcement {
+    display: block;
+    background-color: #87ceeb;
+    margin: 0;
+    font-family: Baloo Bhai;
+    font-weight: bold;
+    padding: 1em;
+    text-align: center;
+}
+
+h3 {
+    padding: 1em;
+    margin: 0;
+    background-color: #eea29a;
+}
+.weatherSummary p {
+    padding: 0 0 .5em 1em;
+    margin: 0;
+}
+
+.forecast {
+    display: none;
+    background-color: #fffff0;
+}
+
+.article {
+    background-color: #fffff0;
+    font-family: Baloo Bhai;
+    margin-bottom: 1em;
+}
+.article p {
+    padding: 0 1em 1em 1em;
+    margin: 0;
+}
+#articlePic {
+    margin: 1em;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2), -5px -5px 10px 0 rgba(0, 0, 0, 0.2) ;
+}
+
+.contact {
+    background-color: #fffff0;
+    font-family: Baloo Bhai;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactInfo {
+    padding: 1em;
+}
+#contactMap {
+    display: none;
+    margin: 1em;
+}
+.contact p {
+    font-size: .8em;
+}
+.socialIcons img {
+    margin: .3em;
+}
+footer {
+    font-family: Baloo Bhai;
+    font-size: 15px;;
+    text-align: center;
+    background-color:#618685;
+    color: black;
+    padding: 0.5em;
+}
+footer a {
+    color: black;
+} 
+
 #logo {
     width: 70px;
     height: 48px;
@@ -101,73 +173,3 @@ h2 {
 
 }
 
-h3 {
-    padding: 1em;
-    margin: 0;
-    background-color: #eea29a;
-}
-.weatherSummary p {
-    padding: 0 0 .5em 1em;
-    margin: 0;
-}
-
-.forecast {
-    display: none;
-    background-color: #fffff0;
-}
-
-.article {
-    background-color: #fffff0;
-    font-family: Baloo Bhai;
-    margin-bottom: 1em;
-}
-.article p {
-    padding: 0 1em 1em 1em;
-    margin: 0;
-}
-#articlePic {
-    margin: 1em;
-    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2), -5px -5px 10px 0 rgba(0, 0, 0, 0.2) ;
-}
-
-.contact {
-    background-color: #fffff0;
-    font-family: Baloo Bhai;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.contactInfo {
-    padding: 1em;
-}
-#contactMap {
-    display: none;
-    margin: 1em;
-}
-.contact p {
-    font-size: .8em;
-}
-.socialIcons img {
-    margin: .3em;
-}
-footer {
-    font-family: Baloo Bhai;
-    font-size: 15px;;
-    text-align: center;
-    background-color:#618685;
-    color: black;
-    padding: 0.5em;
-}
-footer a {
-    color: black;
-}             
-
-#announcement {
-    display: block;
-    background-color: #87ceeb;
-    margin: 0;
-    font-family: Baloo Bhai;
-    font-weight: bold;
-    padding: 1em;
-    text-align: center;
-}
