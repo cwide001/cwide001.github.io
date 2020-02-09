@@ -117,9 +117,7 @@ nav {
     padding: 0;
 
 }
-nav li {
-    float: left;
-}
+
 .navigation li:first-child {
     display: block;
 }
