@@ -1,0 +1,73 @@
+@media only screen and (min-width: 32.5em) {
+    .navigation {
+        display: flex;
+        justify-content: center;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: block;
+        background-color: #eea29a;
+    }
+    h1 {
+        font-size: 26px;
+    }
+    #tagline {
+        font-size: 16px;
+        margin-top: 2px;
+    }
+    #logo {
+        width: 150px;
+        height: auto;
+    }
+  
+.forecast {
+    display: block;
+    background-color: #FFFFF0;
+    padding-bottom: 2em;
+    margin: 1em 0 1em 0;
+
+}
+.forecastWrap {
+    margin: 0 auto;
+    max-width: 700px;
+    background-color: #d5f4e6;
+    font-family: Baloo Bhai;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    border-right: 1px solid rgb(37, 37, 37);
+    border-bottom: 1px solid rgb(37, 37, 37);
+    border-top: 1px solid rgb(37, 37, 37);
+    
+}
+.forecastWrap .forecastDay, .forecastTemp {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border-left: 1px solid rgb(37, 37, 37);
+
+}
+.forecastDay {
+    background-color: #618685;
+    color: black;
+}
+.forecastPic {
+    border-left: 1px solid rgb(37, 37, 37);
+}
+.forecastWrap img {
+    margin: 0 auto;
+}
+.forecast h3{
+    font-family: Baloo Bhai;
+    text-align: center;
+}
+
+#articlePic {
+    float: right;
+}
+
+#contactMap {
+    display: block;
+}
+}
