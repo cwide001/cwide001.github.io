@@ -1,5 +1,5 @@
 WebFont.load({
     google: {
-      families: ["Baloo Bahi"]
+      families: ['Baloo Bhai', cursive;]
     }
   });
