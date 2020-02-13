@@ -21,6 +21,12 @@
         width: 150px;
         height: auto;
     }
+    
+    .weatherSummary {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+}
   
 .forecast {
     display: block;
