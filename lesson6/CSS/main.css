@@ -33,7 +33,7 @@ h3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.weather {
+.weatherItem {
     text-align: right;
 }
 
