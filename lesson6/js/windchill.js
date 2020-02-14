@@ -1,18 +1,17 @@
+const temp = document.getElementById('Temp').textContent;
+const wind = document.getElementById('windSpeed').textContent;
 
-var temp = parseFloat(document.getElementById ('Current').textContent);
-var speed = parseFloat(document.getElementById ('WindSpeed').textContent);
-var output = Math.round(windChill(temp, speed))
+var t = parseFloat(temp);
+var s = parseFloat(wind);
 
-if(temp <= 50 && speed > 3) {
-    document.getElementById('WindChill').innerHTML = output + "&deg"
+var windChill;
+
+if (t>50 || s<3) {
+    windChill = "N/A"
+    document.getElementById('windChill').innerHTML = windChill;
 }
 else {
-    document.getElementById('WindChill').innerHTML = "N/A"
-}
-
-
-//calculation
-
-function windChill(tempF, speed) {
-return 35.74 + (0.6215 * tempF) - (35.75*(speed**0.16)) + (0.4275*(tempF)*(speed**0.16));
+    windChill = 35.74 + 0.6215 * t - 35.75 * Math.pow(s, 0.16) + 0.4275 * t * Math.pow(s, 0.16);
+    windChill = Math.round(windChill*10)/10;
+    document.getElementById('windChill').innerHTML = windChill + "&deg;";
 }
