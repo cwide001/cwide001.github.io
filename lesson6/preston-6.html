@@ -45,23 +45,24 @@
                 <source media="(max-width: 700px)" srcset="images/Franklinmedium.jpg">
                 <img src="images/Franklinlarge.jpg" alt="pic example">
             </picture>
-              <section class="weatherSummary">
-                <h3>Weather Summary</h3>
-                <div class="weatherSumInfo">
-                    <p class="weatherItem">Currently:</p>
-                    <p><span id="Current">45</span>&deg;F</p>
-                    <p class="weatherItem">High:</p>
-                    <p id="High">55&deg;F</p>
-                    <p class="weatherItem">Wind Chill:</p>
-                    <p><span id="WindChill"></span></p>
-                    <p class="weatherItem">Humidity:</p>
-                    <p id="Humidity">22%</p>
-                    <p class="weatherItem">Wind Speed:</p>
-                    <p><span id="WindSpeed">15</span> mph</p>
-                </div>
+              <div class="weathersummary">
+                <h3>Weather Summary</h3><hr>
+                <section class="weather">
+                    <div class="summary">Currently:</div>
+                    <div class="summaryvalue">Sunshine</div>
+                    <div class="summary">High:</div>
+                    <div class="summaryvalue"><span id="Temp">55</span>&deg;</div>
+                    <div class="summary">Wind Chill:</div>
+                    <div class="summaryvalue"><span id="windChill"></span></div>
+                    <div class="summary">Humidity:</div>
+                    <div class="summaryvalue">22%</div>
+                    <div class="summary">Wind Speed:</div>
+                    <div class="summaryvalue"><span id="windSpeed">11</span> mph</div>
+                </section>
+            </div>
+        </div>
 
-            </section>
-		
+
         </section>
         <section class="forecast">
             <h3>5 Day Forcast</h3>
