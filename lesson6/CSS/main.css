@@ -27,13 +27,42 @@ h3 {
     margin: 0;
     background-color: #eea29a;
 }
-.weatherSummary p {
-    padding: 0 0 .5em 1em;
-    margin: 0;
+.weathersummary {
+    max-width: 55%;
+    position: absolute;
+    top: 15px;
+    opacity: 0.85;
+    box-shadow: none;
+}
+
+.weathersummary, .weathersummary section div {
+    background-color: #eea29a;
+    color: #000000;
+}
+
+.weathersummary h3 {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0.25rem;
+}
+
+.weathersummary hr {
+    box-shadow: none;
+}
+
+.weather {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.weatherItem {
+
+.weathersummary section div {
+    box-shadow: none;
+    border: none;
+    margin: 2px;
+    padding: 0;
+}
+
+.summary {
     text-align: right;
 }
 
