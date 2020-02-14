@@ -4,7 +4,7 @@ var speed = parseFloat(document.getElementById ('WindSpeed').textContent);
 var output = Math.round(windChill(temp, speed))
 
 if(temp <= 50 && speed > 3) {
-    document.getElementById('WindChill').innerHTML = output + "&deg;F"
+    document.getElementById('WindChill').innerHTML = output + "&deg"
 }
 else {
     document.getElementById('WindChill').innerHTML = "N/A"
