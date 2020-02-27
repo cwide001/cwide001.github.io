@@ -1,0 +1,46 @@
+tbody td {
+    padding: 10px;
+}
+
+tbody th {
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: #628ca6;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #e7ffed;
+}
+tbody tr:nth-child(even) {
+    background-color: #e7f0ed;
+}
+
+table {
+    box-shadow: 4px 4px 4px 4px #628ca6;
+}
+
+thead {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    background-color: #7fb9c2;
+}
+
+tfoot {
+    padding: 10px;
+    text-align: center;
+    background-color: #7fb9c2;
+    font-size: 12px;
+}
+th, td, table {
+    border: 1px solid white;
+    font-family: 'Ubuntu', sans-serif;
+    border-collapse: collapse;
+}
+
+
+#block {
+    background-color:  #628ca6;
+    color: #e7f0ed;
+}
