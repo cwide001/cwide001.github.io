@@ -1,7 +1,39 @@
-@media only screen and (min-width: 35rem) {
-    nav ul {margin-left: 2%;}
+@media only screen and (min-width: 32.5em) {
+    .navigation {
+        display: flex;
+        justify-content: center;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: block;
+        background-color: #eea29a;
+    }
+    h1 {
+        font-size: 26px;
+    }
+    #tagline {
+        font-size: 16px;
+        margin-top: 2px;
+    }
+    #logo {
+        width: 150px;
+        height: auto;
+    }
+
+#articlePic {
+    float: right;
+}
+
+#contactMap {
+    display: block;
+}
+nav ul {margin-left: 2%;}
     nav ul li {width: auto;}
     nav ul li:first-child a {border-left: 1px solid #777;}
     nav ul li:last-child a {border-right: 1px solid #777;}
     nav ul li a{padding: .5rem 1rem;}
-    } 
+}
+
+
