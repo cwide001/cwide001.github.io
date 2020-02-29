@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Preston, ID</title>
+    <meta name="description" content="Preston">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/medium.css">
+    <link rel="stylesheet" href="CSS/large.css">
+
+</head>
+
+<body>
+    <div id="announcement">
+        Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavillion.
+    </div>
+    <header>
+        <img id="logo" src="images/iconfinder_weather-thunder-rainy-h_274756.png" alt="High Mountain Logo">
+        <section class="headings">
+            <h1>Wild Weather Center</h1>
+            <div id="tagline">Weather Information You Need! </div>
+        </section>
+
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="https://cwide001.github.io/index.html">Home</a></li>
+            <li><a class="current" href="preston-5.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+           <h2>Storm Center - Report A Storm</h2>
+        <form method="GET" action="thanks.html">
+            <fieldset>
+                <legend>Reporter's Information</legend>
+                <label class="top">Name*<input type="text" name="fullname"  pattern="(.*[A-Za-z]){5,}" required></label>
+                <label class="top">Email* <input type="email" name="email" placeholder ="example@gmail.com" required></label>
+                <label class="top">Phone* <input type="tel" name="phone" required></label>
+                <label class="top">Zip Code* <input type="number" name="zip" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Storm Information</legend>
+                <label class="top">Date of Storm <input type="date" name="completeDate"></label>
+                <label class="top">Storm Type <input list="stormList" name="storms"></label>
+                    <datalist id="stormList">
+                        <option value="Flash Flood"></option>
+                        <option value="Hail"></option>
+                        <option value="Hurricane"></option>
+                        <option value="Thunderstorm"></option>
+                        <option value="Tornado"></option>
+                    </datalist>
+                <label class="top slider" id="rating">Storm Severity <input type="range"  value="5" min="1" max="10" step="1" 
+                    oninput="adjustRating(this.value)" 
+                    onchange="adjustRating(this.value)">
+                <span id="ratingvalue">5</span>
+                </label>
+                <label class="top">Storm Region
+                    <select name="region">
+                        <option value="">Select Region </option>
+                        <option value="Preston">Preston</option>
+                        <option value="Soda Springs">Soda Springs</option>
+                        <option value="Fish Haven">Fish Haven</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Additional Information</legend>
+                <div>Are you safe from the storm?</div>
+                    <label class="sbs"><input type="radio" name="status" value="yes"> Yes</label>
+                    <label class="sbs"><input type="radio" name="status" value="no"> No</label>
+                    <label class="sbs"><input type="radio" name="status" value="maybe"> Maybe</label>
+                <label class="top">Additional information or comments: 
+                    <textarea name="additionalInfo" placeholder="<---Enter additional comments here--->" rows="5" cols="50"></textarea></label>
+            </fieldset>
+            <input type="submit" value="Report Storm" class="submitBtn">
+
+        </form>
+  
+
+    </main>
+     <footer>
+        &copy; Wild Weather Center 2020 | Corey M. Wideen | <a href ="https://www.byui.edu/onine">BYUI Online Learning</a> 
+   <br> <script src="js/time.js"></script>    
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/displayAnnouncement.js"></script>
+    <script src="js/Font.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/windchill.js"></script>
+	  <script>
+      WebFont.load({
+        google: {
+            families: ['Baloo Bhai']
+        }
+      });
+    </script>
+   
+</body>
+
+</html>
