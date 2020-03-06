@@ -47,6 +47,7 @@ section img {
 
 footer {
     margin: 0.75rem;
+     font-family: Baloo Bhai;
 }
 
 @media screen and (min-width: 32.5em) {
