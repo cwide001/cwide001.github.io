@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Preston, ID</title>
+    <meta name="description" content="Preston">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/medium.css">
+    <link rel="stylesheet" href="CSS/large.css">
+
+</head>
+
+<body>
+    <div id="announcement">
+        Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavillion.
+    </div>
+    <header>
+        <img id="logo" src="images/iconfinder_weather-thunder-rainy-h_274756.png" alt="High Mountain Logo">
+        <section class="headings">
+            <h1>Wild Weather Center</h1>
+            <div id="tagline">Weather Information You Need! </div>
+        </section>
+
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="current" href="preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston Idaho</h2>
+        <section class="heroSummary">
+             <picture class="heroPic">
+                <source media="(max-width: 500px)" srcset="lesson6/images/Franklinsmall.jpeg">
+                <source media="(max-width: 700px)" srcset="lesson6/images/Franklinmedium.jpg">
+                <img src="lesson6/images/Franklinlarge.jpg" alt="pic example">
+            </picture>
+              <div class="weathersummary">
+                <h3>Weather Summary</h3><hr>
+                <section class="weather">
+                    <div class="summary">Currently:</div>
+                    <div class="summaryvalue">Sunshine</div>
+                    <div class="summary">High:</div>
+                    <div class="summaryvalue"><span id="Temp">30</span>&deg;</div>
+                    <div class="summary">Wind Chill:</div>
+                    <div class="summaryvalue"><span id="windChill"></span></div>
+                    <div class="summary">Humidity:</div>
+                    <div class="summaryvalue">22%</div>
+                    <div class="summary">Wind Speed:</div>
+                    <div class="summaryvalue"><span id="windSpeed">3</span> mph</div>
+                </section>
+            </div>
+        </div>
+
+
+        </section>
+        <section class="forecast">
+            <h3>5 Day Forcast</h3>
+            <div class="forecastWrap">
+                <div class="forecastDay">Day 1</div>
+                <div class="forecastDay">Day 2</div>
+                <div class="forecastDay">Day 3</div>
+                <div class="forecastDay">Day 4</div>
+                <div class="forecastDay">Day 5</div>
+                <div class="forecastPic"><img src="lesson6/images/sunny.png" alt="sun"></div>
+                <div class="forecastPic"><img src="lesson6/images/cloud_rain.png" alt="showers"></div>
+                <div class="forecastPic"><img src="lesson6/images/cloud_rain.png" alt="showers"></div>
+                <div class="forecastPic"><img src="lesson6/images/cloud_lightning.png" alt="thunder"></div>
+                <div class="forecastPic"><img src="lesson6/images/cloud_rain.png" alt="showers"></div>
+                <div class="forecastTemp">55°</div>
+		<div class="forecastTemp">35°</div>
+                <div class="forecastTemp">43°</div>
+                <div class="forecastTemp">45°</div>
+                <div class="forecastTemp">25°</div>
+
+            </div>
+
+        </section>
+        <section class="article">
+            <img id="articlePic" src="lesson6/images/cow.jpg" alt="cow" width= "400">
+            <h3>Cow Tipping near local farms!</h3>
+            <p>by Corey Wideen</p>
+            <p>  Cow tipping is becoming a great epidemic. When children tip cows, the meat spoils and we will be left hungry. 
+		    It is important that we put an end to this madness before it gets out of hand! Cow tipping should be
+		    considered a felony and kids should be tried as adults. STOP THIS MADNESS!<br> <br>
+                    We are now posting local law enforcement at the entrance of every farm. The cows will have high priority
+		    when it comes to safety. The criminal children who sneak onto the farms will be prosecuted and sent to cow jail.
+		    If you have any information please send us your information to the contact info below! Thanks and have a nice day!
+
+            </p>
+
+        </section>
+        <section class="contact">
+            <img id="contactMap" src="lesson6/images/map.png" alt="Map" width= "200">
+            <div class="contactInfo">
+                <h4>Wild Weather Center</h4>
+                <p>70 W Oneida<br>
+                    Preston, ID 83263</p>
+                <p>&#128222;(208) 999-9999<br>
+                    &#128231; cwideen@prestonid.us</p>
+                <div class="socialIcons">
+                    <img src="lesson6/images/facebook.png" alt="facebook">
+                    <img src="lesson6/images/instagram.png" alt="instagram icon">
+                    <img src="lesson6/images/twitter.png" alt="twitter icon">
+                </div>
+            </div>
+        </section>
+    </main>
+     <footer>
+        &copy; Wild Weather Center 2020 | Corey M. Wideen | <a href ="https://www.byui.edu/onine">BYUI Online Learning</a> 
+   <br> <script src="js/time.js"></script>    
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/displayAnnouncement.js"></script>
+    <script src="js/Font.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/windchill.js"></script>
+	  <script>
+      WebFont.load({
+        google: {
+            families: ['Baloo Bhai']
+        }
+      });
+    </script>
+   
+</body>
+
+</html>
