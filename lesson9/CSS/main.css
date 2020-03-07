@@ -96,6 +96,10 @@ footer a {
     color: black;
 } 
 
+#Mountain {
+    width: 100%;
+}
+
 #logo {
     width: 70px;
     height: 48px;
