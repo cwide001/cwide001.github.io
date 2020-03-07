@@ -226,6 +226,12 @@ p{
     background-color #fffff0:
 }
 
+h3 {
+    padding: 1em;
+    margin: 0;
+    background-color: #eea29a;
+}
+
 .weathersummary {
     max-width: 55%;
     position: absolute;
