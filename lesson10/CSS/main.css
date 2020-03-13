@@ -271,14 +271,6 @@ h3 {
     text-align: right;
 }
 
-/*Photo attribution label and link*/
-#photoatt {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    padding-right: 2px;
-}
-
 .forecast {
     display: none;
     background-color: #fffff0;
