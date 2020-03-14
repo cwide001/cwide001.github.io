@@ -53,11 +53,11 @@
     box-shadow: none;
     margin: 0;
     align-content: center;
-    background-color: rgba(249, 226, 6, 0.2);
+    background-color: #fffff0;
 }
 
 .label {
-    background-color: #92BDA3;
+    background-color: #618685;
     border: 1px solid #524b2e;
     border-radius: 5px 5px 0 0;
 }
