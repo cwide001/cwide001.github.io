@@ -29,44 +29,37 @@
 }
   
 .forecast {
-    display: block;
-    background-color: #FFFFF0;
-    padding-bottom: 2em;
-    margin: 1em 0 1em 0;
-
-}
-.forecastWrap {
-    margin: 0 auto;
-    max-width: 700px;
-    background-color: #d5f4e6;
-    font-family: Baloo Bhai;
-    text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    border-right: 1px solid rgb(37, 37, 37);
-    border-bottom: 1px solid rgb(37, 37, 37);
-    border-top: 1px solid rgb(37, 37, 37);
-    
-}
-.forecastWrap .forecastDay, .forecastTemp {
-    padding-top: .5em;
-    padding-bottom: .5em;
-    border-left: 1px solid rgb(37, 37, 37);
-
-}
-.forecastDay {
-    background-color: #618685;
-    color: black;
-}
-.forecastPic {
-    border-left: 1px solid rgb(37, 37, 37);
-}
-.forecastWrap img {
-    margin: 0 auto;
-}
-.forecast h3{
-    font-family: Baloo Bhai;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 1rem;
     text-align: center;
+}
+
+.forecast h3 {
+    grid-column: span 5;
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.forecast img {
+    display: block;
+    max-width: 60%;
+    margin: auto;
+}
+
+.days {
+    box-shadow: none;
+    margin: 0;
+    align-content: center;
+    background-color: rgba(249, 226, 6, 0.2);
+}
+
+.label {
+    background-color: #92BDA3;
+    border: 1px solid #524b2e;
+    border-radius: 5px 5px 0 0;
 }
 
 #articlePic {
