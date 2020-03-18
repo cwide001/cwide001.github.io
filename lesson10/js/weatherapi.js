@@ -22,7 +22,7 @@ if (temperature <= 50 && wind >= 3) {
         document.getElementById('windChill').innerHTML = windChill;
 }
 else {
-        document.getElementById('windChill').innerHTML = "N/A";
+        document.getElementById('windChill').innerHTML = "n/a";
 }
 
    
