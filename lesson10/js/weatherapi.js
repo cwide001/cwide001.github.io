@@ -36,7 +36,7 @@ var s = parseFloat(wind);
 
 if (temperature <= 50 && wind >= 3) {
 
-        windchill = Math.round(35.74 + (0.6215 * temperature) - (35.75*(wind**0.16))) + (0.4275*(temperature)*(wind**0.16)));
+        windchill = Math.round(35.74 + (0.6215 * temperature) - (35.75*(wind**0.16)) + (0.4275*(temperature)*(wind**0.16)));
 
         document.getElementById('windChill').innerHTML = windchill;
 
