@@ -11,37 +11,46 @@ fetch(requestURL)
     for (let i = 0; i < towns.length; i++ ) {
         if (towns[i].name == 'Preston' || towns[i].name == "Fish Haven" || towns[i].name == "Soda Springs") {
         
-  rowNumber = rowNumber + 1;
-  let card = document.createElement('div');
-  card.setAttribute('class', 'row' + rowNumber + ' townCard');
-  let info = document.createElement('section');
-  card.appendChild(info);
+        rowNumber = rowNumber + 1;
+        
+        let card = document.createElement('div');
+        card.setAttribute('class', 'row' + rowNumber + ' townCard');
 
-  let h2 = document.createElement('h2');
-  h2.textContent = towns[i].name;
-  info.appendChild(h2);
+        let info = document.createElement('section');
+        card.appendChild(info);
 
-  let h3 = document.createElement('h3');
-  h3.textContent = towns[i].motto;  info.appendChild(h3);
+        let h2 = document.createElement('h2');
+        h2.textContent = towns[i].name;
+        info.appendChild(h2);
 
- let founded = document.createElement('p');
- founded.textContent = "Founded: " + towns[i].yearFounded; info.appendChild(founded);
+        let h3 = document.createElement('h3');
+        h3.textContent = towns[i].motto;
+        info.appendChild(h3);
 
- let population = document.createElement('p');
- population.textContent = "Population: " + towns[i].currentPopulation; info.appendChild(population);
+        let founded = document.createElement('p');
+        founded.textContent = "Founded: " + towns[i].yearFounded;
+        info.appendChild(founded);
 
- let rainfall = document.createElement('p');
- rainfall.textContent = "Annual Rainfall: " + towns[i].averageRainfall; info.appendChild(rainfall);
+        let population = document.createElement('p');
+        population.textContent = "Population: " + towns[i].currentPopulation;
+        info.appendChild(population);
 
- let image = document.createElement('img');
- image.setAttribute('src', 'images/' + towns[i].photo); image.setAttribute('alt', 'Town of ' + towns[i].name)card.appendChild(image);
+        let rainfall = document.createElement('p');
+        rainfall.textContent = "Annual Rainfall: " + towns[i].averageRainfall;
+        info.appendChild(rainfall);
+
+        let image = document.createElement('img');
+        image.setAttribute('src', 'images/' + towns[i].photo);
+        image.setAttribute('alt', 'Town of ' + towns[i].name)
+        card.appendChild(image);
         
         
- document.querySelector('div.townInfo').appendChild(card); }
- //document.querySelector('div.row' + [rowNumber]).appendChild(info);   }
+        document.querySelector('div.townInfo').appendChild(card); }
+        //document.querySelector('div.row' + [rowNumber]).appendChild(info);   }
 
- else {
-       continue;
- }
+        else {
+            continue;
+        }
 
- }});
+        
+  }});
