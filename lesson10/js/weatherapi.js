@@ -14,8 +14,8 @@ fetch(apiURL)
 const temp = document.getElementById('currentTemp').textContent;
 const wind = document.getElementById('windSpeed').textContent;
 
-var t = parseFloat(temp);
-var s = parseFloat(wind);
+var temperature = parseFloat(document.getElementById('High').innerHTML);
+var wind = parseFloat(document.getElementById('WindSpeed').innerHTML);
 
 if (temperature <= 50 && wind >= 3) {
         windchill = Math.round(35.74 + (0.6215 * temperature) - (35.75*(wind**0.16)) + (0.4275*(temperature)*(wind**0.16)));
