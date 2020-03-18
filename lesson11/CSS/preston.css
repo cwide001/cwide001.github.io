@@ -214,3 +214,35 @@ h2 {
     opacity: 0.80;
 
 }
+
+div.events section article p{
+    color: #eea29a;
+    font-size: 1.1em;
+}
+
+div.events section{
+    margin: 4px;
+    border: 10px solid #eea29a;
+}
+
+div.events section article{
+    padding: 15px;
+    text-align: center;
+}
+
+.article, div.events {
+    padding: 10px;
+    margin: 10px auto 5px auto;
+    width: 100%;
+    box-shadow: 0 0 1px #111;
+    background-color: #fffff0;
+}
+
+div.events section article h2{
+    display: block;
+    border-bottom: 1.5px solid black;
+    padding-bottom: 5px;
+    margin: 0 10%;
+}
+
+
