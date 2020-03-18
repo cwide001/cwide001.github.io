@@ -46,7 +46,7 @@ fetch(requestURL)
         
         
         document.querySelector('div.townInfo').appendChild(card); }
-        //document.querySelector('div.row' + [rowNumber]).appendChild(info);   }
+     
 
         else {
             continue;
