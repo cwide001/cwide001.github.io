@@ -11,12 +11,6 @@ fetch(apiURL)
     document.getElementById('humidity').textContent = Math.round(jsObject.main.humidity);
     document.getElementById('windSpeed').textContent = Math.round(jsObject.wind.speed);
 
-    /*const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';  // note the concatenation
-    const desc = jsObject.weather[0].description;  // note how we reference the weather array
-    document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
-    document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
-    document.getElementById('icon').setAttribute('alt', desc);*/
-  
 
 const temp = document.getElementById('currentTemp').textContent;
 const wind = document.getElementById('windSpeed').textContent;
