@@ -1,0 +1,216 @@
+body {
+    margin: 0 auto;
+    font-family: Baloo Bhai;
+    background-color: #d5f4e6;
+}
+
+header {
+    background-color: #618685;
+    color: black;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+}
+
+#announcement {
+    display: block;
+    background-color: #87ceeb;
+    margin: 0;
+    font-family: Baloo Bhai;
+    font-weight: bold;
+    padding: 1em;
+    text-align: center;
+}
+
+h3 {
+    padding: 1em;
+    margin: 0;
+    background-color: #eea29a;
+}
+.weathersummary {
+    max-width: 55%;
+    position: absolute;
+    top: 15px;
+    opacity: 0.85;
+    box-shadow: none;
+}
+
+.weathersummary, .weathersummary section div {
+    background-color: #eea29a;
+    color: #000000;
+}
+
+.weathersummary h3 {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0.25rem;
+}
+
+.weathersummary hr {
+    box-shadow: none;
+}
+
+.weather {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.weathersummary section div {
+    box-shadow: none;
+    border: none;
+    margin: 2px;
+    padding: 0;
+}
+
+.summary {
+    text-align: right;
+}
+
+.forecast {
+    display: none;
+    background-color: #fffff0;
+}
+
+.article {
+    background-color: #fffff0;
+    font-family: Baloo Bhai;
+    margin-bottom: 1em;
+}
+.article p {
+    padding: 0 1em 1em 1em;
+    margin: 0;
+}
+#articlePic {
+    margin: 1em;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2), -5px -5px 10px 0 rgba(0, 0, 0, 0.2) ;
+}
+
+main picture.heroPic img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.contact {
+    background-color: #fffff0;
+    font-family: Baloo Bhai;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactInfo {
+    padding: 1em;
+}
+#contactMap {
+    display: none;
+    margin: 1em;
+}
+.contact p {
+    font-size: .8em;
+}
+.socialIcons img {
+    margin: .3em;
+}
+footer {
+    font-family: Baloo Bhai;
+    font-size: 15px;;
+    text-align: center;
+    background-color:#618685;
+    color: black;
+    padding: 0.5em;
+}
+footer a {
+    color: black;
+} 
+
+#logo {
+    width: 70px;
+    height: 48px;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+#tagline {
+    font-family: Baloo Bhai;
+    font-size: 12px;
+    margin: 0 auto;
+    color: #fffff0;
+    font-style: italic;
+    
+}
+h1 {
+    font-family: Baloo Bhai;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    margin: 0 auto;
+   
+}
+nav {
+    background-color: #eea29a;
+}
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navigation li:first-child {
+    display: block;
+}
+.navigation li {
+    display: none;
+}
+.navigation li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5em 2em 0.5em 2em ;
+    color: black;
+    font-family: Baloo Bhai;
+}
+.navigation li a:hover {
+    background-color: #fffff0;
+    color: black;
+}
+.responsive li{
+    display: block;
+}
+
+nav .current {
+
+        background-color: #FFFFF0;
+        color: #000000;
+}
+
+h2 {
+    font-family: Baloo Bhai;
+    color: black;
+    padding: 1em;
+    margin: 0;
+    text-align: center;
+    
+}
+
+.heroSummary {
+    margin: 0auto;
+    position: relative;
+}
+
+#prestonHero {
+    width: 100%;
+}
+.weatherSummary {
+    position: absolute;
+    font-family: Baloo Bhai;
+    top: 1em;
+    left: 1em;
+    background-color: #eea29a;
+    border: 1px solid rgba(92, 91, 91, 0.4);
+    color: black;
+    opacity: 0.80;
+
+}
