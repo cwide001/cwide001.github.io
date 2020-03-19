@@ -299,10 +299,10 @@ div {
     margin: 0;
 }
 
-div.towns {
+div.townInfo {
     display: grid;
 }
-div.towns div {
+div.townInfo div {
     background-color: #fffff0;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -310,7 +310,7 @@ div.towns div {
     
 }
 
-div.towns div img {
+div.townInfo div img {
     display: block;
     max-width: 100%;
     margin: 0 auto;
