@@ -14,7 +14,7 @@ fetch(requestURL)
   for (let i = 0; i < towns.length; i++ ) {
   if (towns[i].name == 'Preston') {
 
-  let events = document.getElementById('townevents');
+  let events = document.getElementById('events');
         
   let event1 = document.createElement('p');
   event1.textContent = towns[i].events[0];
