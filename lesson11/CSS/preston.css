@@ -217,9 +217,9 @@ h2 {
 
 #events {
     text-align: center;
-    border-width: 5px;
+    border-width: 10px;
     margin-left: 5%;
     margin-right: 5%;
-    box-shadow: 0 0 20px black;
+    box-shadow: 0 0 10px black;
      background-color: #fffff0;
 }
