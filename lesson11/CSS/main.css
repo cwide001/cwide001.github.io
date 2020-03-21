@@ -316,4 +316,11 @@ div.townInfo div img {
     margin: 0 auto;
     margin-top: .5rem;
 }
+#events {
+    text-align: center;
+    border-width: 8px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 0 0 20px gray;
+}
 
