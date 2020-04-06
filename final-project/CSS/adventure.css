@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #FFE400;
+    background-color: #14A76C;
     color: black;
     padding: 7px;
     display: flex;
@@ -14,7 +14,7 @@ header {
 
 #announcement {
     display: block;
-    background-color: #14A76C;
+    background-color: #FF652F;
     margin: 0;
     font-family: 'Anton', sans-serif;
     font-weight: bold;
@@ -115,7 +115,7 @@ footer {
     font-family: 'Anton', sans-serif;
     font-size: 15px;;
     text-align: center;
-    background-color:#FFE400;
+    background-color:#14A76C;
     color: black;
     padding: 0.5em;
 }
@@ -173,7 +173,7 @@ nav {
     font-family: 'Anton', sans-serif;
 }
 .navigation li a:hover {
-    background-color: #14A76C;
+    background-color: #FF652F;
     color: black;
 }
 .responsive li{
@@ -182,7 +182,7 @@ nav {
 
 nav .current {
 
-        background-color: #14A76C;
+        background-color: #FF652F;
         color: #000000;
 }
 
