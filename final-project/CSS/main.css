@@ -202,27 +202,16 @@ h3 {
     background-color: #FF652F;
 }
 
-.weathersummary {
-    max-width: 55%;
+.weatherSummary {
     position: absolute;
-    top: 15px;
-    opacity: 0.85;
-    box-shadow: none;
-}
-
-.weathersummary, .weathersummary section div {
+    font-family: 'Anton', sans-serif;
+    top: 1em;
+    left: 1em;
     background-color: #FF652F;
-    color: #000000;
-}
+    border: 1px solid rgba(92, 91, 91, 0.4);
+    color: black;
+    opacity: 0.80;
 
-.weathersummary h3 {
-    padding: 0;
-    margin-top: 0;
-    margin-bottom: 0.25rem;
-}
-
-.weathersummary hr {
-    box-shadow: none;
 }
 
 .weather {
