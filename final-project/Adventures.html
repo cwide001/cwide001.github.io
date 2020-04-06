@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Salmon River Adventures</title>
+    <meta name="description" content="Riggins">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/medium.css">
+    <link rel="stylesheet" href="CSS/large.css">
+    
+    </head>
+
+<body>
+    <div id="announcement">
+        Saturday = Saturday discount for parties of 5 and larger!
+    </div>
+    <header>
+        <img id="logo" src="">
+        <section class="headings">
+            <h1>Salmon River Adventures</h1>
+            <div id="tagline">Refreshing Fun! </div>
+        </section>
+
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a class="current" href="index.html">Home</a></li>
+            <li><a href="">Adventure Guide</a></li>
+            <li><a href="">Tour Guides</a></li>
+            <li><a href="">Reservations</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+    </nav>
+     <main>
+        <h2>Adventure Guide</h2>
+        <section class="heroSummary">
+             <picture class="heroPic">
+                <source media="(max-width: 500px)" srcset="">
+                <source media="(max-width: 800px)" srcset="">
+                <img src="" alt="pic example">
+            </picture>
+             <div class="weathersummary">
+                <h3>Weather Summary</h3><hr>
+                <section class="weather">
+                    <div class="summary">Currently: </div>
+                    <div class="summaryvalue"><span id="currentTemp"></span>&deg;</div>
+                    <div class="summary">High: </div>
+                    <div class="summaryvalue"><span id="Temp"></span>&deg;</div>
+                    <div class="summary">Wind Chill:</div>
+                    <div class="summaryvalue"><span id="windChill"></span></div>
+                    <div class="summary">Humidity:</div>
+                    <div class="summaryvalue"><span id="humidity"></span>%</div>
+                    <div class="summary">Wind Speed:</div>
+                    <div class="summaryvalue"><span id="windSpeed"></span> mph</div>
+                </section>
+            </div>
+            <div class="forecast">
+            <h3>5 Day Forecast</h3>
+            <div class="days label" id="day1"></div>
+            <div class="days label" id="day2"></div>
+            <div class="days label" id="day3"></div>
+            <div class="days label" id="day4"></div>
+            <div class="days label" id="day5"></div>
+            <div class="days"><img id="icon1" ><span id="temp1"></span>&deg;</div>
+            <div class="days"><img id="icon2" ><span id="temp2"></span>&deg;</div>
+            <div class="days"><img id="icon3" ><span id="temp3"></span>&deg;</div>
+            <div class="days"><img id="icon4" ><span id="temp4"></span>&deg;</div>
+            <div class="days"><img id="icon5" ><span id="temp5"></span>&deg;</div>
+        </div>
+         </section>
+	     <br>
+	     <div id="events">
+	    <h3>Upcoming Events:</h3>
+            <hr>
+        </div>
+        
+        <section class="article">
+            <img id="articlePic" src="" alt="rainbow" width= "400">
+            <h3>Rainbow Valley</h3>
+            <p>This river is for the novice. Those who have never done white water rafting will love this 3 day experience. It is not a gentle ride
+            like some may think, but a very exciting and fast ride. You will not leave dry. Make sure you pack a poncho! <br>
+            $299 <br>
+            This includes a two-day adventure that will include food and traveling to the drop location. Once dropped off, everything will be done by foot. 
+            Bring warm clothing and sleeping gear. Tents will be provided. Dont think you will leave dry, so pack extra clothes! </p>
+            
+             <section class="article">
+            <img id="articlePic" src="" alt="salmon" width= "400">
+            <h3>Salmon Falls</h3>
+            <p>This river is for the intermediate rafter. If you feel confident enough to try going off a waterfall, this river is for you. There is a HUGE drop on the river that allows those will some experience to
+            taste something new. It will be an exciting time with Katie. She will be your tour guide on this fun adventure. You will fall in love with this river adventure.<br>
+            $500 <br>
+            This includes a three-day adventure that will include food and traveling to the drop location. Once dropped off, everything will be done by foot. 
+            Bring warm clothing and sleeping gear. Tents will be provided. Dont think you will leave dry, so pack extra clothes! </p>
+	     
+        <section class="article">
+            <img id="articlePic" src="" alt="devil" width= "400">
+            <h3>Devil's road</h3>
+            <p>This is a river for those with the most experience. This river is Tom's baby. Tom is one of our most trained and experienced 
+            tour guides. He will be the host for those adventurous enough to ride Devil's road. If you are just starting out, you will not be allowed to
+            try this until after you sign a waiver. <br>
+            $650 <br>
+            This includes a four-day adventure that will include food and traveling to the drop location. Once dropped off, everything will be done by foot. 
+            Bring warm clothing and sleeping gear. Tents will be provided as this will be a thrill of a ride through Devil's road. </p>
+
+            
+
+        </section>
+            <section class="contact">
+            <img id="contactMap" src="" alt="Map" width= "200">
+            <div class="contactInfo">
+                <h4>Samlon River Adventures</h4>
+                <p>1000 N River Rd.<br>
+                    Riggins, ID 83549</p>
+                <p>&#128222;(208) 415-6755<br>
+                    &#128231; RiverAdventure@gmail.com</p>
+                <div class="socialIcons">
+                    <img src="images/facebook.png" alt="facebook">
+                    <img src="images/instagram.png" alt="instagram icon">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </div>
+            </div>
+        </section>
+    </main>
+     <footer>
+        &copy; Salmon River Adventures 2020 | Corey M. Wideen | <a href ="https://www.byui.edu/onine">BYUI Online Learning</a> 
+   <br> <script src="js/time.js"></script>    
+    </footer>
+
+    <script src="js/main.js"></script>
+  
+	  <script>
+      WebFont.load({
+        google: {
+            families: ['']
+        }
+      });
+    </script>
+</body>
+</html>
