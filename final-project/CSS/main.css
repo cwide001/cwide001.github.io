@@ -86,14 +86,14 @@ footer a {
     margin: 0 auto;
     color: #FF652F;
     font-style: italic;
-    
+
 }
 h1 {
     font-family: 'Anton', sans-serif;
     letter-spacing: 1px;
     font-size: 1.1em;
     margin: 0 auto;
-   
+
 }
 nav {
     background-color: #FFE400;
@@ -139,7 +139,7 @@ h2 {
     padding: 1em;
     margin: 0;
     text-align: center;
-    
+
 }
 
 form fieldset {
@@ -202,16 +202,27 @@ h3 {
     background-color: #FF652F;
 }
 
-.weatherSummary {
+.weathersummary {
+    max-width: 55%;
     position: absolute;
-    font-family: 'Anton', sans-serif;
-    top: 1em;
-    left: 1em;
-    background-color: #FF652F;
-    border: 1px solid rgba(92, 91, 91, 0.4);
-    color: black;
-    opacity: 0.80;
+    top: 15px;
+    opacity: 0.85;
+    box-shadow: none;
+}
 
+.weathersummary, .weathersummary section div {
+    background-color: #FF652F;
+    color: #000000;
+}
+
+.weathersummary h3 {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0.25rem;
+}
+
+.weathersummary hr {
+    box-shadow: none;
 }
 
 .weather {
@@ -254,6 +265,3 @@ main picture.heroPic img {
     margin: 0;
     padding: 0;
 }
-
-
-
