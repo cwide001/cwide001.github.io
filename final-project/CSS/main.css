@@ -179,10 +179,10 @@ form label.sbs {
 }
 form input.submitBtn {
     border: none;
-    background-color: #FF652F;
+    background-color: #14A76C;
     font-size: 1.25rem;
     font-family: 'Anton', sans-serif;
-    color: #FFE400;
+    color: #000000;
     border-radius: .5rem;
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
