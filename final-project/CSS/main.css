@@ -12,6 +12,10 @@ header {
     justify-content: center;
 }
 
+main div.location iframe {
+  max-width: 100%;
+  max-height: 200px; }
+
 #announcement {
     display: block;
     background-color: #FF652F;
