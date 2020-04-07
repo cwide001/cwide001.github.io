@@ -8,7 +8,7 @@
     <meta name="description" content="Riggins">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="CSS/normalize.css">
-    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/adventure.css">
     <link rel="stylesheet" href="CSS/medium.css">
     <link rel="stylesheet" href="CSS/large.css">
 
@@ -44,6 +44,34 @@
 		 <source class="welcomePhoto" media="(max-width:500px)" srcset="images/salmonriver500.jpg">
                 <source class="welcomePhoto" media="(max-width:800px)" srcset="images/salmonriver800.jpg">
                 <img class="welcomePhoto" src="images/salmonriver.jpg" <br>
+			  <div class="weathersummary">
+                <h3>Weather Summary</h3><hr>
+                <section class="weather">
+                    <div class="summary">Currently: </div>
+                    <div class="summaryvalue"><span id="currentTemp"></span>&deg;</div>
+                    <div class="summary">High: </div>
+                    <div class="summaryvalue"><span id="Temp"></span>&deg;</div>
+                    <div class="summary">Wind Chill:</div>
+                    <div class="summaryvalue"><span id="windChill"></span></div>
+                    <div class="summary">Humidity:</div>
+                    <div class="summaryvalue"><span id="humidity"></span>%</div>
+                    <div class="summary">Wind Speed:</div>
+                    <div class="summaryvalue"><span id="windSpeed"></span> mph</div>
+                </section>
+            </div>
+            <div class="forecast">
+            <h3>5 Day Forecast</h3>
+            <div class="days label" id="day1"></div>
+            <div class="days label" id="day2"></div>
+            <div class="days label" id="day3"></div>
+            <div class="days label" id="day4"></div>
+            <div class="days label" id="day5"></div>
+            <div class="days"><img id="icon1" ><span id="temp1"></span>&deg;</div>
+            <div class="days"><img id="icon2" ><span id="temp2"></span>&deg;</div>
+            <div class="days"><img id="icon3" ><span id="temp3"></span>&deg;</div>
+            <div class="days"><img id="icon4" ><span id="temp4"></span>&deg;</div>
+            <div class="days"><img id="icon5" ><span id="temp5"></span>&deg;</div>
+        </div>
             <p> Riggins Idaho is known for some of the best white water rafting adventures! Come and experience what true happiness is like.
 			If you want to bring a group or come by yourself, we have adventures for everyone. We have tour guides that will take you
 			on adventures based on your level of experience. If you are a beginner, we have Tom who will lead you. If you have more
